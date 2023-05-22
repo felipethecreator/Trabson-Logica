@@ -13,7 +13,7 @@ func Jogo() {
 
 	numero := false
 
-	random := 2 //rand.Intn(100) + 1
+	random := rand.Intn(100) + 1
 
 	n_Tries := make(map[int]int)
 	tries := 0
